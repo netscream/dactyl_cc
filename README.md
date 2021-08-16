@@ -5,7 +5,7 @@ The 3d files can be found @ [Dactyl CC Github](https://github.com/mjohns/dactyl-
 I started by printing all the parts needed for Dactyl CC
 
 
-Other parts needed:
+## Parts Needed
 * [PLA Filament](https://www.amazon.co.uk/gp/product/B08GCJR1QC/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
 * [1N4148 Diodes](https://www.amazon.co.uk/gp/product/B07QDNC9YY/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)
 * [TRRS cable](https://www.amazon.co.uk/gp/product/B07FFT6L12/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&th=1)
@@ -20,4 +20,23 @@ Other parts needed:
 I bought these KBDFans keycaps and I had to alter the 1.5 keycaps a little to make them fit. I will most likely order the Kinesis original keycaps next time, just to keep the colour configuration on the mid row and also so I will not have to modify any of the keys.
 
 
+
+## Building QMK Firmware
+Included is the bash script for downloading QMK and building it correctly with the teensy 4.0.
+
+\> git clone https://github.com/netscream/dactyl_cc
+
+\> cd dactyl_cc
+
+\> chmod +x build_dactyl_cc_teensy40.sh
+
+\> ./build_dactyl_cc_teensy40.sh
+
+This build might take some time as this will download qmk and all submodules that are needed, then it will build the firmware.
+
+When the build has finished your should have a file called "dactyl_cc_teensy40_netscream.hex" in the root directory.
+
+\>ls 
+
+\>README.md  build_dactyl_cc_teensy40.sh  dactyl_cc_teensy40_netscream.hex ................ etc.
 
