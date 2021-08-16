@@ -2,7 +2,18 @@
 [WORK IN PROGRESS]
 
 The 3d files can be found @ [Dactyl CC Github](https://github.com/mjohns/dactyl-cc)
-I started by printing all the parts needed for Dactyl CC
+
+I started by printing all the parts needed for Dactyl CC, then I noticed there was no box / holder for the micro or the trrs connector.
+
+So I created a first draft of Teensy plus trrs connector holder for dactyl and another holder for only the trrs only. 
+
+For the Teensy holder you will need to cut the middle bit of the 2 holes, and it should fit well enough there. 
+
+For the trrs holder, it should fit into either hole well enough.
+
+3D_files ->
+* teensy_holder2.FCStd
+* trrs_holder.FCStd
 
 
 ## Parts Needed
@@ -40,3 +51,22 @@ When the build has finished your should have a file called "dactyl_cc_teensy40_n
 
 \>README.md  build_dactyl_cc_teensy40.sh  dactyl_cc_teensy40_netscream.hex ................ etc.
 
+## The Keyboard in pictures
+### Drawings
+#### Left Setup
+![drawing Left|20%](pics/dactyl_drawing_left.png)
+#### Right Setup
+![drawing Right](pics/dactyl_drawing_right.png)
+#### IO Expander
+![drawing IO Expander](pics/MCP23017_drawing.png)
+#### 3D Print
+![3D print](pics/left_3d_print.jpg)
+#### Painted with switches
+![Painted](pics/dactyl_gateron_switches.jpg)
+#### Left Wiring
+![Wiring](pics/left_wiring.jpg)
+## Fully Ready
+### Left
+![Left](pics/left_with_keycaps.jpg)
+### Right
+![Right](pics/right_with_keycaps.jpg)
